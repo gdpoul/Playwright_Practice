@@ -1,4 +1,4 @@
-package playwrightBasics;
+package locators;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
@@ -15,6 +15,7 @@ public class HandleShadowDOMElement {
 		
 		Page page=browser.newPage();
 		page.navigate("https://books-pwakit.appspot.com/");
+//      page.fill("input#input","Testing Books");
 		page.locator("book-app[apptitle='BOOKS'] #input").fill("Testing Books");
 		String text=page.locator("book-app[apptitle='BOOKS'] .books-desc").textContent();
         System.out.println(text);

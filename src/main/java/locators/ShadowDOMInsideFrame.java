@@ -1,4 +1,4 @@
-package playwrightBasics;
+package locators;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;

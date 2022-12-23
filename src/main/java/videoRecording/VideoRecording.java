@@ -1,4 +1,4 @@
-package playwrightBasics;
+package videoRecording;
 
 import java.nio.file.Paths;
 
@@ -15,7 +15,8 @@ public class VideoRecording {
 		
 		BrowserContext context=browser
 				         .newContext(new Browser.NewContextOptions()
-				             .setRecordVideoDir(Paths.get("myvideos/")).setRecordVideoSize(1000, 570));
+				         .setRecordVideoDir(Paths.get("myvideos/"))
+				         .setRecordVideoSize(1000, 570));
 		
         Page page=context.newPage();
         page.navigate("https://opensource-demo.orangehrmlive.com/");
