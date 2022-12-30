@@ -15,7 +15,7 @@ public class VideoRecording {
 		
 		BrowserContext context=browser
 				         .newContext(new Browser.NewContextOptions()
-				         .setRecordVideoDir(Paths.get("myvideos/"))
+				         .setRecordVideoDir(Paths.get("VideoRecording/"))
 				         .setRecordVideoSize(1000, 570));
 		
         Page page=context.newPage();
@@ -31,6 +31,8 @@ public class VideoRecording {
         Thread.sleep(2000);
         page.click("a:text('Logout')");
         Thread.sleep(2000);
+        
+        
         context.close();
         page.close();
         playwright.close();

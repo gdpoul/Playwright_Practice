@@ -23,6 +23,6 @@ public class Left_Of {
 	}
 	public static void selectUser(String userName) {
 		page.locator("input[type='checkbox']:left-of(:text('"+userName+"'))").first().click();
-	}
+	}	
 
 }

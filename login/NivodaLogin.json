@@ -1,0 +1,205 @@
+{
+  "cookies" : [ {
+    "name" : "_fbp",
+    "value" : "fb.1.1672038895473.1047481204",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1679814898,
+    "httpOnly" : false,
+    "secure" : false,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_ga",
+    "value" : "GA1.2.845428987.1672038896",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1.706598895560387E9,
+    "httpOnly" : false,
+    "secure" : false,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_gid",
+    "value" : "GA1.2.907660022.1672038896",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672125295,
+    "httpOnly" : false,
+    "secure" : false,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_gat_gtag_UA_16177906_31",
+    "value" : "1",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672038955,
+    "httpOnly" : false,
+    "secure" : false,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "ln_or",
+    "value" : "eyI0MDM3OTYxIjoiZCJ9",
+    "domain" : "website-beta.nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672125295,
+    "httpOnly" : false,
+    "secure" : false,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "li_sugr",
+    "value" : "2bd45b86-8529-4bb3-b127-e9ff945bb493",
+    "domain" : ".linkedin.com",
+    "path" : "/",
+    "expires" : 1.679814898133595E9,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "lang",
+    "value" : "v=2&lang=en-us",
+    "domain" : ".ads.linkedin.com",
+    "path" : "/",
+    "expires" : -1,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "bcookie",
+    "value" : "\"v=2&203b121c-59c0-42bc-8b57-3a5d71785a78\"",
+    "domain" : ".linkedin.com",
+    "path" : "/",
+    "expires" : 1.703574898133662E9,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "lidc",
+    "value" : "\"b=TGST06:s=T:r=T:a=T:p=T:g=2563:u=1:x=1:i=1672038894:t=1672125294:v=2:sig=AQHlPhyYsfzhnGFT7U0JZbqF12XgtnA2\"",
+    "domain" : ".linkedin.com",
+    "path" : "/",
+    "expires" : 1.672125296833633E9,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "UserMatchHistory",
+    "value" : "AQKa5ZMLioApUgAAAYVNSMxoj3zvtoTWXLAyP0kuxRjod_jpn2io7Ae95PFUWqOz1YIP4zaIJSsObg",
+    "domain" : ".linkedin.com",
+    "path" : "/",
+    "expires" : 1.674630896125187E9,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "AnalyticsSyncHistory",
+    "value" : "AQLx_0ajnqgv0wAAAYVNSMxolZgCDzPMLBDkRK9DFHZTMj2UWAMV4fP6tb5ozK7JXXwKL6WgtvurpsLxqyDIzw",
+    "domain" : ".linkedin.com",
+    "path" : "/",
+    "expires" : 1.674630896125226E9,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "lang",
+    "value" : "v=2&lang=en-us",
+    "domain" : ".linkedin.com",
+    "path" : "/",
+    "expires" : -1,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "bscookie",
+    "value" : "\"v=1&20221226071454d4ead357-d9fd-44bf-81ae-467ea58259fdAQH0X3atlUO8icdujqO_bK7O2lAEHHKp\"",
+    "domain" : ".www.linkedin.com",
+    "path" : "/",
+    "expires" : 1.703574896431544E9,
+    "httpOnly" : true,
+    "secure" : true,
+    "sameSite" : "None"
+  }, {
+    "name" : "mp_850430699239b1657816af5e4c6606d9_mixpanel",
+    "value" : "%7B%22distinct_id%22%3A%20%221854d48d40d1d8-0bff4e6f1dce8d-26021151-e1000-1854d48d40e5be%22%2C%22%24device_id%22%3A%20%221854d48d40d1d8-0bff4e6f1dce8d-26021151-e1000-1854d48d40e5be%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%7D",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1703574896,
+    "httpOnly" : false,
+    "secure" : false,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjSessionUser_1572649",
+    "value" : "eyJpZCI6Ijk5Njg1YTIyLTAxNzEtNTQzZC1hMDlkLTYyOTVhNTJjMGI4YiIsImNyZWF0ZWQiOjE2NzIwMzg4OTUzNzQsImV4aXN0aW5nIjpmYWxzZX0=",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1703574897,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjFirstSeen",
+    "value" : "1",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672040697,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjIncludedInSessionSample",
+    "value" : "1",
+    "domain" : "website-beta.nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672039017,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjSession_1572649",
+    "value" : "eyJpZCI6IjBmYzdhMzczLTE4ODEtNGY0MS04ZTE0LWZmMzllYWJiY2U0ZCIsImNyZWF0ZWQiOjE2NzIwMzg4OTc4MzIsImluU2FtcGxlIjp0cnVlfQ==",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672040697,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjIncludedInPageviewSample",
+    "value" : "1",
+    "domain" : "website-beta.nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672039017,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjAbsoluteSessionInProgress",
+    "value" : "0",
+    "domain" : ".nivodaapi.net",
+    "path" : "/",
+    "expires" : 1672040697,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  }, {
+    "name" : "_hjCachedUserAttributes",
+    "value" : "eyJhdHRyaWJ1dGVzIjp7fSwidXNlcklkIjpudWxsfQ==",
+    "domain" : "website-beta.nivodaapi.net",
+    "path" : "/",
+    "expires" : -1,
+    "httpOnly" : false,
+    "secure" : true,
+    "sameSite" : "Lax"
+  } ],
+  "origins" : [ {
+    "origin" : "https://website-beta.nivodaapi.net",
+    "localStorage" : [ {
+      "name" : "Trengo_VisitorToken",
+      "value" : "665cc2a4-e1b8-4bf9-2fd0-b47570117991"
+    }, {
+      "name" : "_ID_check",
+      "value" : "447561:501264:874225:2916"
+    }, {
+      "name" : "Trengo_Visitor",
+      "value" : "TRRBDBdTDWJEFlgWSw8OU0obWV0SBVx9A1NSY15VRkIVAwgdRAsFCxw5EA4HbnNkcmR5aXpNDhESEnl4BhFYWEdEcCdGV0gLG1FRBBEKBA4="
+    } ]
+  } ]
+}

@@ -22,7 +22,7 @@ public class loginNivoda {
 		page.click(".login-form-button");
 		
 		context
-		.storageState(new BrowserContext.StorageStateOptions().setPath(Paths.get("NivodaLogin.json")));
+		.storageState(new BrowserContext.StorageStateOptions().setPath(Paths.get("./login/NivodaLogin.json")));
 		
 	}
 

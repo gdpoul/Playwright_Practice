@@ -12,6 +12,8 @@ public class JsPopUpAlert {
 		Page page=browser.newPage();
 		
 		page.navigate("https://the-internet.herokuapp.com/javascript_alerts");
+		
+		// Java Script pop up automatically handled by playwright
 		page.click("//button[text()='Click for JS Alert']");
 		
 		String result = page.textContent("#result");

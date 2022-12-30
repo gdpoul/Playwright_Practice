@@ -21,7 +21,9 @@ public class MaximizeBrowser {
 		Playwright playwright = Playwright.create();
 		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 		
-		BrowserContext context=browser.newContext(new Browser.NewContextOptions().setViewportSize(width, height));
+		BrowserContext context=browser.newContext(new Browser.NewContextOptions()
+				.setViewportSize(width, height));
+			
         Page page=context.newPage();
         page.navigate("https://www.amazon.com/");
 	}

@@ -19,7 +19,7 @@ public class VideoRecord2 {
 		
 		BrowserContext browserContext = browser
 				.newContext(new Browser.NewContextOptions()
-			    .setRecordVideoDir(Paths.get("myvideos/"))
+			    .setRecordVideoDir(Paths.get("VideoRecording/"))
 				.setRecordVideoSize(1000, 570));
 		
 		Page page=browserContext.newPage();

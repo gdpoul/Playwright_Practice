@@ -16,10 +16,14 @@ public class CreateFileAndUpload {
 		page.navigate("https://cgi-lib.berkeley.edu/ex/fup.html");
 		
 		// run time file upload
-		page.setInputFiles("input[name='upfile']", new FilePayload(
-				"ganesh.txt","text/plain", "this is ganesh here".getBytes(StandardCharsets.UTF_8)));
+		page.setInputFiles("input[name='upfile']", 
+				new FilePayload(
+				"ganesh.txt",
+				"text/plain", 
+				"I am ganesh Ganesh Poul, from Maharashra"
+				.getBytes(StandardCharsets.UTF_8)));
 		
-//		page.click("input[value='Press']");
+		page.click("input[value='Press']");
 	}
 
 }
