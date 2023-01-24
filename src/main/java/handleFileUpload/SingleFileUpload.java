@@ -22,7 +22,7 @@ public class SingleFileUpload {
 		page.setInputFiles("input#filesToUpload", Paths.get("orangeHrmLogin.json"));
 		Thread.sleep(3000);
 		
-		// deselect the file
+		// Deselect the file
 		page.setInputFiles("input#filesToUpload", new Path[0]);
 	}
 

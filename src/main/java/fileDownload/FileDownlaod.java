@@ -11,7 +11,7 @@ import com.microsoft.playwright.Playwright;
 public class FileDownlaod {
 	public static void main(String[] args) {
 		Playwright playwright = Playwright.create();
-		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+		Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
 		Page page = browser.newPage();
 
 		page.navigate("https://chromedriver.storage.googleapis.com/index.html?path=102.0.5005.27/");
@@ -19,6 +19,7 @@ public class FileDownlaod {
 		Download download = page.waitForDownload(() -> {
 			page.click("a:text('chromedriver_win32.zip')");
 		});
+		
 //		download.cancel();
 //		System.out.println(download.failure());
 		
@@ -28,6 +29,10 @@ public class FileDownlaod {
 		
 		download.saveAs(Paths.get("./DownloadFiles/New_Chrome.zip"));
 		System.out.println(download.suggestedFilename());
+		
+		page.close();
+		browser.close();
+		playwright.close();
 	}
 
 }
