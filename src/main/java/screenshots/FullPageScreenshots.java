@@ -18,7 +18,7 @@ public class FullPageScreenshots {
 		Page page=context.newPage();
 		
 		page.navigate("https://website-beta.nivodaapi.net/");
-		page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("screenshot1.png")));
+		page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("./screenshots/screenshot1.png")));
 		
 		page.close();
 		context.close();
